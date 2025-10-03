@@ -3,9 +3,14 @@ venv/
 ENV/
 env/
 .venv/
-downloads/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.sqlite3
+
+
+# Ignore everything in downloads/
+downloads/*
+# But keep this special placeholder
+!downloads/.gitkeep

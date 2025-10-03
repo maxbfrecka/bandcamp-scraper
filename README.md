@@ -21,3 +21,5 @@ getPaidReleases: determines which releases are paid releases and adds to json fi
 checkEmailRequired: checks if email is required for free download and adds those to a list.
 
 updateMetadata: looks into paid releases and scans those urls, updates metadata if you altered those releases to free (for automated downloading in last step)
+
+batchDownload: this will then use all_metadata_updated to automatically go through all albums and download. they need to be free and not require email for it to work, which is the purpose of checkEmailRequired, getPaidReleases and mergeMetadata. this will work in batches that you specify the start and end index of all_metadata_updated.json that you want to work with. it will save the zips into downloads.
