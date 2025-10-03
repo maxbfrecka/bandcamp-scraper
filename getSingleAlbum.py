@@ -1,7 +1,7 @@
 import json
 from playwright.sync_api import sync_playwright
 
-URL = "https://declarationofdecimation.bandcamp.com/album/xdrv-60hz-britegl-de"
+URL = "pathsinglealbum.com"  # <-- replace with a single album URL
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)  # set headless=True once it works

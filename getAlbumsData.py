@@ -5,8 +5,8 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 # --- SETTINGS ---
-START_INDEX = 101    # inclusive
-END_INDEX = 200      # inclusive
+START_INDEX = 201    # inclusive
+END_INDEX = 261      # inclusive
 INPUT_FILE = "releases.json"
 OUTPUT_FILE = f"metadata_{START_INDEX}_{END_INDEX}.json"
 

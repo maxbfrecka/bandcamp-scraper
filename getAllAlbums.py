@@ -5,7 +5,7 @@ import json
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-USERNAME = "declarationofdecimation"  # <-- your Bandcamp username
+USERNAME = "YOUR_BANDCAMP_USERNAME"  # <-- your Bandcamp username
 URL = f"https://{USERNAME}.bandcamp.com/music"
 
 releases = []
